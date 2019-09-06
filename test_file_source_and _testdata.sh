@@ -16,7 +16,7 @@ curl http://localhost:8081/subjects/
 #"fields": [
 #    {
 #      "name": "coolant_temp", "type": "float"},
-python3 register_schema.py http://localhost:8081 cardata /Users/cmutzlitz/Confluent/hiveMQ/cardata-v1.avsc
+python3 register_schema.py http://localhost:8081 cardata cardata-v1.avsc
 
 # check
 curl http://localhost:8081/subjects/cardata-value/versions/
