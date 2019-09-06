@@ -26,7 +26,7 @@ curl http://localhost:8081/subjects/cardata-value/versions/
 curl http://localhost:8081/subjects/cardata-value/versions/1
 ```
 
-Another simple way to register a Schema to a topic is using the Confluent Control Center. Create your topic and add your schema syntax into Schema editor. This Schema is than registered into Schema Registry.
+Another simple way to register a Schema to a topic is using the Confluent Control Center. Create your topic and add your schema syntax into Schema editor. This Schema is than registered into Schema Registry, see [Schema Editor in C3](https://docs.confluent.io/current/control-center/topics/schema.html).
 
 ## Load csv into kafka
 I use a the file stream source connector as standalone. Configuration files are attached.
