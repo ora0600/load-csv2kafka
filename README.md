@@ -25,6 +25,9 @@ curl http://localhost:8081/subjects/cardata-value/versions/
 # get schema
 curl http://localhost:8081/subjects/cardata-value/versions/1
 ```
+
+Another simple way to register a Schema to a topic is using the Confluent Control Center. Create your topic and add your schema syntax into Schema editor. This Schema is than registered into Schema Registry.
+
 ## Load csv into kafka
 I use a the file stream source connector as standalone. Configuration files are attached.
 ```
