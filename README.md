@@ -19,7 +19,7 @@ The Schema file is load into Schema Registry via python script. I found a nice u
 # check subjects in schema registry for schema registry
 curl http://localhost:8081/subjects/
 # register schema  <schema registry REST> <topic> <avro schema file>
-python3 register_schema.py http://localhost:8081 cardata /Users/cmutzlitz/Confluent/hiveMQ/cardata-v1.avsc
+python3 register_schema.py http://localhost:8081 cardata cardata-v1.avsc
 # check
 curl http://localhost:8081/subjects/cardata-value/versions/
 # get schema
